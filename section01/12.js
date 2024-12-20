@@ -1,9 +1,14 @@
+// Title: 대문자로 통일
 function solution(s) {
     let answer = '';
 
     for (let x of s) {
         if (x === x.toLowerCase()) answer += x.toUpperCase();
         else answer += x;
+
+        /* Solution2 
+         answer = s.toUpperCase(); 
+        */
 
         /* Solution3 (아스키 코드)
         let num = x.charCodeAt();

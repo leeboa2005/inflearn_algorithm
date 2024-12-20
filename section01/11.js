@@ -1,3 +1,4 @@
+// Title: 대문자 찾기
 function solution(s) {
     let answer = 0;
 
