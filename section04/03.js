@@ -1,3 +1,4 @@
+// Title: 멘토링
 function solution(test) {
     let answer = 0,
         tmp = [];
